@@ -158,6 +158,135 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <h3>Creating Layouts</h3>
+            <p>
+                Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.
+            </p>
+            <br>
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5>Section</h5>
+                    <p>The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.</p>
+                </div>
+                <div class="col s12 m6">
+                    <h5>Divider</h5>
+                    <p>Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.</p>
+                </div>
+            </div>
+            <br>
+            <h4>Example Sections and Dividers</h4>
+            <div class="divider"></div>
+            <h4>Section 1</h4>
+                <p>Stuff</p>
+            <br>
+            <div class="divider"></div>
+            <h4>Section 2</h4>
+                <p>Stuff</p>
+            <br>
+            <div class="divider"></div>
+            <h4>Section 3</h4>
+                <p>Stuff</p>
+            <br>
+            <br>
+            <h4>Example Promotion Table</h4>
+            <p>If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.</p>
+            <div class="row">
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                        <p class="promo-caption">Speeds up development</p>
+                        <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="fa-solid fa-user-group"></i>
+                        <p class="promo-caption bold">User Experience Focused</p>
+                        <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="fa-solid fa-gear"></i>
+                        <p class="promo-caption bold">Easy to work with</p>
+                        <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h4>Side Navigation Layout</h4>
+            <p>You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.</p>
+            <br>
+            <img src="Responsive.jpg" alt="" class="responsive-img">
+            <br>
+            <h3>Creating Responsive Layouts</h3>
+            <p>Above we showed you how to layout elements using our grid system. Now we'll show you how to design your layouts so that they look great on all screen sizes.</p>
+            <br>
+            <h4>Adding Responsiveness</h4>
+            <p>In the previous examples, we only defined the size for small screens using "col s12". This is fine if we want a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying "col s12 m12 l12". But by explicitly defining the size we can make our website more responsive.</p>
+            <div class="row">
+                <div class="grid-example col s12">
+                    <div class="card-panel teal darken-3 white-text">
+                        <span class="flow-text">I am always full-width (col s12)</span>
+                    </div>
+                </div>
+                <div class="grid-example col s12 m6">
+                    <div class="card-panel teal darken-3 white-text">
+                        <span class="flow-text">I am full-width on mobile (col s12 m6)</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h4>Responsive Side Navigation Layout</h4>
+            <p>In this example below, we take the same layout from above, but we make it responsive by defining how many columns the div should take up on each screen size. Try resizing your browser and watch the layout change below.</p>
+            <img src="Responsive.jpg" alt="" class="responsive-img">
+            <br>
+            <h4>More Responsive Grid Examples</h4>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l2">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m4</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l8">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m4</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l2">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m6 l3</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m6 l3</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m6 l3</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel teal darken-3 white-text">
+                        <p>s12 m6 l3</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
